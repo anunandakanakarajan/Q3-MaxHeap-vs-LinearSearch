@@ -1,0 +1,39 @@
+Enter student scores (end with EOF):
+
+MAX HEAP INSERTION
+==================
+After inserting 78: [78]
+  Parent comparisons = 0, swaps = 0
+After inserting 92: [92, 78]
+  Parent comparisons = 1, swaps = 1
+After inserting 65: [92, 78, 65]
+  Parent comparisons = 1, swaps = 0
+After inserting 88: [92, 88, 65, 78]
+  Parent comparisons = 2, swaps = 1
+After inserting 95: [95, 92, 65, 78, 88]
+  Parent comparisons = 2, swaps = 2
+After inserting 72: [95, 92, 72, 78, 88, 65]
+  Parent comparisons = 2, swaps = 1
+After inserting 84: [95, 92, 84, 78, 88, 65, 72]
+  Parent comparisons = 2, swaps = 1
+After inserting 90: [95, 92, 84, 90, 88, 65, 72, 78]
+  Parent comparisons = 2, swaps = 1
+
+MAX HEAP RESULT
+================
+Highest score = 95
+Comparisons for finding maximum = 0 (root access)
+Heap construction comparisons = 12
+Heap construction swaps = 7
+Maximum retrieval operations = 1 (root access)
+
+LINEAR SEARCH RESULT
+====================
+Highest score = 95
+Comparisons = 7
+
+COMPARISON SUMMARY
+==================
+Max Heap: maximum retrieval O(1), insertion O(log n)
+Linear Search: maximum search O(n)
+For 8 scores: Max Heap build comparisons = 12; Linear Search comparisons = 7
